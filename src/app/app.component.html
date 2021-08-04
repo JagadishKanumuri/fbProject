@@ -1,0 +1,11 @@
+<app-header></app-header>
+<h1 style="text-align: center;">{{title}}</h1>
+<hr>
+<ul>
+    <li [routerLink]="['search']">Search</li>
+    <li [routerLink]="['manageBooking']">ManageBooking</li>
+    <li [routerLink]="['bookingHistory']">BookingHistory</li>
+</ul>
+<hr>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
